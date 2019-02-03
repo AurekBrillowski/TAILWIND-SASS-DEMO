@@ -1,0 +1,10 @@
+@tailwind preflight;
+@tailwind components;
+
+.alert {
+    @apply .border .mt-4 .p-4 .rounded .shadow-lg;
+
+    a { @apply .font-bold; }
+}
+
+@tailwind utilities;
